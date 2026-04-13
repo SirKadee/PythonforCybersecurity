@@ -2,5 +2,8 @@
 # A simple "Hello World" script in python
 # Created
 
-# Write Hello World to the screen
-print("Hello World")
+# ask user for their name
+user_name = input("What is your name: ")
+
+# Write Hello World to the user to the screen
+print("Hello " + user_name)
